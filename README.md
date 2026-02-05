@@ -21,19 +21,35 @@ Make sure you have **Python 3.10 or higher** installed (tested on Python 3.13).
 ```bash
 git clone [https://github.com/YOUR_USERNAME/ai-desktop-translator.git](https://github.com/YOUR_USERNAME/ai-desktop-translator.git)
 cd ai-desktop-translator
-
 3. Set Up a Virtual Environment (Recommended)
+Creating a virtual environment keeps your project dependencies isolated and clean.
+
+Create the environment:
+
 Bash
 python -m venv venv
-# Windows:
-.\venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
+Activate the environment:
+
+Windows: ```bash .\venv\Scripts\activate
+
+Mac/Linux: ```bash source venv/bin/activate
+
+
 4. Install Dependencies
+Install the necessary AI translation libraries:
+
 Bash
 pip install deep-translator
 🛠️ How to Execute
-Once the installation is complete, you can start the application by running:
+To launch the application, ensure your virtual environment is active and run the following command:
 
 Bash
 python gui_translator.py
+📖 How to Use
+Input: Type or paste the text you want to translate in the top input box.
+
+Select Language: Choose your target language (e.g., Hindi, Spanish, French) from the dropdown menu.
+
+Translate: Click the "Translate Now" button.
+
+Result: The AI will automatically detect your input language and display the translation in the bottom box.
